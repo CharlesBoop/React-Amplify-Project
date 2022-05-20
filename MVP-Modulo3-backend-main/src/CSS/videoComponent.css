@@ -1,0 +1,44 @@
+.videoCard {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-height: 20vh;
+    border-bottom-style: solid;
+    border-radius: 1px;
+    border-color: #9FA8DA;
+}
+
+.VideoInfo {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.videoCard .VideoInfo h1 {
+    font-size: x-large;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.videoCard .VideoInfo h2 {
+    font-size: larger;
+    font-weight: normal;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.videoCard .IconButton {
+    margin-left: 20%;
+    font-size: large;
+    justify-content: right;
+    color: black;
+    margin-right: 2%;
+}
+
+
+
